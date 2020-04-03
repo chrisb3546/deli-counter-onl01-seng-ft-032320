@@ -14,6 +14,7 @@ def line (katz_deli)
 end
 
 def take_a_number(katz_deli, string)
+<<<<<<< HEAD
     katz_deli << string
     
     if katz_deli.length 
@@ -31,6 +32,10 @@ else puts "Currently serving #{katz_deli.shift}."
     
 
 
+=======
+  katz_deli.each do |string|
+    puts "#{string} is currently in line"
+>>>>>>> a71fad7676963ffd49eae1577b1ad0bcb907ef9e
 end
 end
 
